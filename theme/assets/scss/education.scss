@@ -1,0 +1,16 @@
+@use "sass:math";
+
+.education {
+  .left {
+    white-space: nowrap;
+  }
+
+  .title {
+    .specialty {
+      font-size: $font-size-small;
+      font-weight: normal;
+      display: inline;
+    }
+  }
+
+}

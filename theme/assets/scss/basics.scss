@@ -1,0 +1,22 @@
+header {
+  .name {
+    font-size: $main-name-font-size;
+    line-height: 1em;
+    font-weight: bold;
+    display: inline-block;
+    padding-bottom: 0.5em;
+    padding-top: 1em;
+  }
+
+  .label {
+    font-size: $main-label-font-size;
+    line-height: 1em;
+    font-weight: lighter;
+    display: inline-block;
+    margin-left: 0.35em;
+  }
+
+  .contact {
+    display: block;
+  }
+}

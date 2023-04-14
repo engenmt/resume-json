@@ -1,0 +1,25 @@
+@use "sass:math";
+
+$content-width: 1000px;
+$content-main-percentage: 85%;
+$content-side-percentage: 100% - $content-main-percentage;
+
+$space-1: 0.5em;
+$space-2: 1em;
+$space-3: 1.5em;
+$space-4: 2.5em;
+
+$line-height-1: 1.25em;
+$line-height-2: 1.35em;
+$line-height-3: 1.6em;
+
+$text-color: #222222;
+
+$font-size-xlarge: 1.5em;
+$font-size-large: 1.25em;
+$font-size-medium: 1em;
+$font-size-small: 0.9em;
+$font-size-xsmall: 0.8em;
+
+$main-name-font-size: 1.5em;
+$main-label-font-size: 1.4em;

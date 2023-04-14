@@ -1,0 +1,17 @@
+if helper.validArray(resume.work)
+  div(class='section')
+    div(class='side section-title') Experience
+    div(class='main')
+      each work in resume.work
+        div(class='header table margin-container-2')
+          div(class='left')
+            span(class='title')=work.position
+            span(class='subtitle margin-text-1')
+              a(href=work.url)=work.name
+          div(class='right')
+            span(class='date')=helper.calcDateRange(work.startDate, work.endDate)
+        div(class='summary markdown margin-text-4')!=helper.mdToHtml(work.summary)
+        if helper.validArray(work.highlights)
+          ul(class='highlights margin-text-4')
+            each highlight in work.highlights
+              li=highlight

@@ -1,0 +1,174 @@
+{
+    "basics": {
+        "name": "Michael Engen",
+        "label": "Software Engineer",
+        "email": "engenmt@gmail.com",
+        "phone": "(352) 644-3723",
+        "urlOmit": "michaelengen.com",
+        "location": {
+            "city": "Columbus",
+            "region": "OH",
+            "countryCode": "US"
+        },
+        "highlights": [
+            "I am a full-stack software developer with nine years of experience using code to solve problems in scientific programming, data engineering, and web contexts",
+            "I experienced in Python and JavaScript to build responsive full-stack applications",
+            "Well versed in technical communication, including five published mathematical research papers and 18 mathematical research talks",
+            ""
+        ],
+        "summary": "I am a detail-oriented software developer with 9 years of experience using code to solve problems in web development, data engineering, and scientific programming.\n\n I'm passionate about helping others with code, including developing full-stack monitoring solutions, writing technical documention, and working directly with users to identify product gaps. I care deeply about effective communication and have extensive experience, including six years spent teaching at the undergraduate level, five published novel mathematical research papers, and 18 talks on mathematical research.\n\n My personal devleopment projects include PermPy, an open-source Python library for working with combinatorial permutation patterns.",
+        "profiles": [
+            {
+                "network": "LinkedIn",
+                "username": "michael-engen",
+                "url": "https://www.linkedin.com/in/michael-engen/"
+            }
+        ]
+    },
+    "skills": [
+        {
+            "name": "Python",
+            "summary": "",
+            "keywords": [
+                "flask",
+                "django",
+                "numpy",
+                "pandas",
+                "matplotlib"
+            ]
+        },
+        {
+            "name": "Javascript",
+            "summary": "",
+            "keywords": [
+                "async/await"
+            ]
+        },
+        {
+            "name": "Web",
+            "keywords": [
+                "HTML",
+                "css",
+                "sass/scss",
+                "tailwind"
+            ]
+        }
+    ],
+    "work": [
+        {
+            "name": "PayPal (remote)",
+            "position": "Integration Engineer II",
+            "startDate": "July 2021",
+            "highlightsOld": [
+                "Assisted external developers in integrating with PayPal's software",
+                "Built product demos to showcase software features to external stakeholders",
+                "Improved internal and external documentation to aid knowledge transfer"
+            ],
+            "highlightsNew": [
+                "Collaborated with external developers to ensure a smooth integration of (WHAT PRODUCTS?) our products into their systems",
+                "Designed and developed an internal end-to-end testing tool, enabling quick and accurate testing of PayPal APIs and SDKs",
+                "Troubleshot complex integration issues, working directly with product and engineering teams",
+                "Streamlined integration certification and trained internal teams on products and processes"
+            ],
+            "highlights": [
+                "Collaborated with external developers to ensure a smooth integration of PayPal products into their systems",
+                "Designed and developed an internal end-to-end testing tool using Python and JavaScript, enabling simple and accurate testing of PayPal APIs and SDKs",
+                "Troubleshot complex integration issues, liaising between product, engineering, and external teams to quickly track down and resolve technical issues",
+                "Wrote developer-facing documentation and certification requirements to support and streamline integration processes"
+            ]
+        },
+        {
+            "name": "Bridgerock Data",
+            "position": "Software Engineer",
+            "startDate": "June 2020",
+            "endDate": "Dec. 2020",
+            "highlights": [
+                "Consulted with external stakeholders to discover their business-intelligence needs and created custom SQL-powered reports for analyzing key performance indicators",
+                "Implemented a new database and computing infrastructure for ETL processes using AWS EC2, ECS, and CloudFormation",
+                "Collaborated both remotely and in-person using an agile software development process and gained experience in a fast-paced startup work environment"
+            ]
+        },
+        {
+            "name": "University of Florida",
+            "position": "Software Developer",
+            "startDate": "Feb. 2018",
+            "endDate": "May 2020",
+            "highlights": [
+                "Co-developed Xronos, an open-source online learning platform that empowers mathematics educators to create online homework assignments using LaTeX ",
+                "Collected product feedback by meeting directly with instructors and students"
+            ]
+        },
+        {
+            "name": "Oak Ridge National Laboratory",
+            "position": "NSF Mathematical Sciences Graduate Intern",
+            "startDate": "May 2017",
+            "endDate": "July 2017",
+            "highlights": [
+                "Developed and implemented a frequent subgraph mining algorithm for extracting features from plaintext cancer pathology reports in Python",
+                "Utilized feature selection to improve classification rate of the automatic pathology reporting"
+            ]
+        },
+        {
+            "name": "University of Florida",
+            "position": "Graduate Teaching Assistant",
+            "startDate": "Aug. 2015",
+            "endDate": "May 2021",
+            "highlights": [
+                "Developed curriculum and instructed students, both in group settings and one-on-one",
+                "Measured students' performance through proctored assessments both in-person and remotely"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "institution": "University of Florida",
+            "area": "Mathematics",
+            "studyType": "Doctor of Philosophy",
+            "studyTypeShort": "Ph.D.",
+            "startDate": "Aug 2017",
+            "endDate": "Aug 2021",
+            "dissertation": "*Universal Combinatorial Structures*",
+            "specialty": "Discrete Mathematics"
+        },
+        {
+            "institution": "University of Florida",
+            "area": "Mathematics",
+            "studyType": "Master of Science",
+            "studyTypeShort": "M.S.",
+            "startDate": "Aug 2015",
+            "endDate": "May 2017",
+            "specialty": "Discrete Mathematics"
+        },
+        {
+            "institution": "University of Florida",
+            "area": "Mathematics",
+            "studyType": "Bachelor of Science",
+            "studyTypeShort": "B.S.",
+            "startDate": "Aug 2013",
+            "endDate": "Aug 2015"
+        }
+    ],
+    "projects": [
+        {
+            "name": "PermPy",
+            "description": "PermPy is an open-source Python library for generating and analyzing large combinatorial datasets.",
+            "highlightsOld": [
+                "Co-authored an open-source Python library for generating and analyzing large combinatorial datasets",
+                "Utilized PermPy to perform computations for numerous published and in-preparation mathematical research articles",
+                "Empowered young researchers with accessible software tools to use in their own computational research"
+            ],
+            "highlights": [
+                "Refactored module structure and deprecated ",
+                "Implemented unit tests, CI/CD, and programmatically generated documentation",
+                "Empowered young researchers with accessible software tools to use in their own computational research"
+            ],
+            "roles": [],
+            "keywords": [
+                "Python",
+                "open-source"
+            ],
+            "startDate": "May 2015",
+            "url": "https://permpy.com/"
+        }
+    ]
+}

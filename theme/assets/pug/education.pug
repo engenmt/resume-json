@@ -1,0 +1,19 @@
+if helper.validArray(resume.education)
+  div(class='section education margin-container-2')
+    div(class='side section-title') Education
+    div(class='main')
+      each education in resume.education
+        div(class='header table margin-container-3')
+          div(class='left')
+            div(class='title')
+              | #{education.studyType} in #{education.area}
+              if education.specialty
+                span(class="specialty")=`, Focus: ${education.specialty}`
+            span(class='subtitle margin-text-1')=education.institution
+          div(class='right')
+            span(class='date')=helper.calcDateRange(education.startDate, education.endDate)
+        div(class='summary markdown margin-text-4')!=helper.mdToHtml(education.summary)
+        if helper.validArray(education.courses)
+          ul(class='highlights margin-text-4')
+            each course in education.courses
+              li=course

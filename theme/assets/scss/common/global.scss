@@ -1,0 +1,61 @@
+@use "sass:color";
+
+a {
+  color: $text-color;
+  font-weight: inherit;
+  text-decoration: none;
+
+  &[href] {
+    text-decoration: underline;
+    text-decoration-color: color.adjust($text-color, $lightness: 40%);
+  }
+}
+
+p,
+q {
+  line-height: $line-height-1;
+}
+
+li {
+  line-height: $line-height-2;
+}
+
+ul {
+  list-style-position: inside;
+}
+
+body {
+  width: $content-width;
+  height: auto;
+  margin: 0 auto;
+  font-family: Helvetica, Arial, sans-serif;
+  color: $text-color;
+}
+
+.section {
+  border-top: 1px solid;
+  margin: 1em 0;
+  padding-top: 1em;
+}
+
+.table {
+  width: 100%;
+  display: table;
+  table-layout: fixed;
+
+  .side {
+    display: table-cell;
+    min-width: $content-side-percentage;
+  }
+
+  .main {
+    display: table-cell;
+    width: $content-main-percentage;
+  }
+}
+
+.section-title {
+  font-size: $font-size-large;
+  font-weight: lighter;
+  text-transform: uppercase;
+}

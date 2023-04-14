@@ -1,0 +1,11 @@
+header
+  span(class='name')=`${resume.basics.name}, `
+  span(class='label')=resume.basics.label
+  div(class='contact')=resume.basics.email
+    |  | #{resume.basics.phone}
+    |  | #{resume.basics.location.city}, #{resume.basics.location.region}
+    |  | 
+    a(href=`//${resume.basics.url}`) #{resume.basics.url}
+    |  | 
+    each profile in resume.basics.profiles
+      a(href=profile.url) #{profile.network}
