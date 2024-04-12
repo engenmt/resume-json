@@ -1,5 +1,4 @@
 const md = require('markdown-it')()
-const iso = require('iso-3166-1')
 const moment = require('moment')
 
 const mdToHtml = (string) => string ? md.render(string) : ''

@@ -1,0 +1,14 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="utf-8")
+    style
+      include styles.css
+    title=`Resume ${resume.basics.name} – ${resume.basics.label}`
+  body
+    include pug/header
+    div(class='table')
+      include pug/summary
+      include pug/work
+      include pug/projects
+      include pug/education

@@ -25,7 +25,6 @@ p {
   size: letter;
   margin: 15mm 0 20mm 0;
 }
-@page :first {}
 a {
   color: #222222;
   font-weight: inherit;

@@ -3,7 +3,11 @@
 This is based off of the [Actual theme for JSON Resume](https://github.com/davcd/jsonresume-theme-actual).
 
 ## Export and serve resume
+```bash
+$ npm run create-pdf
+```
 
 ```bash
 gulp --resume resume.json
 ```
+
